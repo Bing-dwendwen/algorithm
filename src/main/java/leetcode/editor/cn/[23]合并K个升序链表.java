@@ -52,7 +52,7 @@ package leetcode.editor.cn;
 
 import java.util.PriorityQueue;
 
-public class P23MergeKSortedLists{
+class P23MergeKSortedLists{
      public static void main(String[] args) {
          //测试代码
         Solution solution = new P23MergeKSortedLists().new Solution();

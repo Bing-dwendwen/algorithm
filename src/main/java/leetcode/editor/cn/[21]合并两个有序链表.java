@@ -44,7 +44,7 @@ package leetcode.editor.cn;
 
 //合并两个有序链表
 
-public class P21MergeTwoSortedLists{
+class P21MergeTwoSortedLists{
      public static void main(String[] args) {
          //测试代码
         Solution solution = new P21MergeTwoSortedLists().new Solution();
