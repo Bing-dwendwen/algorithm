@@ -76,6 +76,7 @@ class P654MaximumBinaryTree{
 class Solution {
     // 主函数
     public TreeNode constructMaximumBinaryTree(int[] nums) {
+
         TreeNode root = build(nums, 0, nums.length-1);
         return root;
     }
