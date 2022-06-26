@@ -78,19 +78,19 @@ class Solution {
 
         flatten(root.left);
         flatten(root.right);
-        /* 后序遍历位置 */
-        // 记录左右子树
+
+        // 下面是拉平的操作
         TreeNode left = root.left;
         TreeNode right = root.right;
+
         root.left = null;
         root.right = left;
-
-        TreeNode p = root;
-        while (p.right!=null) {
-            p = p.right;
+        while (root.right != null){
+            root = root.right;
         }
-        p.right = right;
+        root.right = right;
     }
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
